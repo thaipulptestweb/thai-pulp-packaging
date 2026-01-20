@@ -14,14 +14,13 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 body{
-  background: 
-    linear-gradient(
-      rgba(0,0,0,0.35),
-      rgba(0,0,0,0.35)
-    ),
-    url("hero12.jpg") center / cover no-repeat fixed;
-
-  color: #222;
+  background:
+  linear-gradient(
+    rgba(255,255,255,0.15),
+    rgba(255,255,255,0.15)
+  ),
+  url("hero12.jpg") center / cover no-repeat;
+background-attachment: scroll; /* ✅ สำคัญมาก */
 }
 
 /* Helpers */
@@ -1239,5 +1238,29 @@ p{
 
   .aboutGrid__media {
     margin-top: 20px;
+  }
+}
+heroImage__overlay {
+  pointer-events: none; /* ✅ ให้คลิกทะลุได้ */
+}
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    background-attachment: scroll !important;
+  }
+
+  .heroImage,
+  .heroImage_media,
+  .heroImage__overlay {
+    background-attachment: scroll !important;
+  }
+
+  /* ป้องกัน overlay หรือวิดีโอบังปุ่ม */
+  .heroVideo__social,
+  .heroImage__actions,
+  .burger,
+  .lang__btn {
+    position: relative;
+    z-index: 1000;
   }
 }
