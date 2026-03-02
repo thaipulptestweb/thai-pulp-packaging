@@ -1259,5 +1259,9 @@ heroImage__overlay {
   .lang__btn {
     position: relative;
     z-index: 1000;
+    /* ซ่อนปุ่ม scroll down */
+.scrollHint {
+  display: none !important;
+}
   }
 }
