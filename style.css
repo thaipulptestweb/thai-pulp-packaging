@@ -19,7 +19,7 @@ body{
     rgba(255,255,255,0.15),
     rgba(255,255,255,0.15)
   ),
-  url("img/hero36.jpg") center / cover no-repeat;
+  url("hero36.jpg") center / cover no-repeat;
 background-attachment: scroll; /* ✅ สำคัญมาก */
 }
 
