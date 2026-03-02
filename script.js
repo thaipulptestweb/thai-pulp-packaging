@@ -1,7 +1,7 @@
 // ===== Thai Pulp Packaging - Video Slider Website =====
 (function(){
   // set default language
-  if (!document.documentElement.getAttribute("data-lang")) {
+  if (!document.documentElement.getAttribute("data-lang"en" {
     document.documentElement.setAttribute("data-lang", "th");
   }
 
