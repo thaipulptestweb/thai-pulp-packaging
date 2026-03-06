@@ -1319,3 +1319,10 @@ transform:translateX(-50%);
     height:90px;
     object-fit:contain;
 }
+.clients_title{
+    font-size:36px;
+    color:#2f5d3a;
+    margin-bottom:40px;
+    text-align:center;
+    font-weight:bold;
+}
