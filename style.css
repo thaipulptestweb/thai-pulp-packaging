@@ -1299,7 +1299,7 @@ align-items:center;
 }
 
 .clients_track img{
-height:45px;
+height:110px;
 opacity:0.8;
 }
 
@@ -1315,4 +1315,7 @@ transform:translateX(0);
 100%{
 transform:translateX(-50%);
 }
+}.clients_track img{
+    height:90px;
+    object-fit:contain;
 }
