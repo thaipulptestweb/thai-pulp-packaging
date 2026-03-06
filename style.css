@@ -1274,3 +1274,45 @@ heroImage__overlay {
   width:100%;
   border-radius:10px;
 }
+.clients{
+padding:80px 0;
+background:#fff;
+text-align:center;
+}
+
+.clients_title{
+font-size:32px;
+color:#2f5d3a;
+margin-bottom:40px;
+}
+
+.clients_slider{
+overflow:hidden;
+position:relative;
+}
+
+.clients_track{
+display:flex;
+gap:60px;
+animation:scrollClients 20s linear infinite;
+align-items:center;
+}
+
+.clients_track img{
+height:45px;
+opacity:0.8;
+}
+
+.clients_track img:hover{
+opacity:1;
+}
+
+@keyframes scrollClients{
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(-50%);
+}
+}
