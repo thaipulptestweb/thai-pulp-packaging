@@ -1264,4 +1264,13 @@ heroImage__overlay {
   display: none !important;
 }
   }
+}.aboutGrid__media{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.aboutGrid__media img{
+  width:100%;
+  border-radius:10px;
 }
