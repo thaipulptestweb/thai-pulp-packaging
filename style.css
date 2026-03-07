@@ -1322,7 +1322,7 @@ transform:translateX(-50%);
 .clients_title{
     font-size:36px;
     color:#2f5d3a;
-    margin-bottom:0px;
+    margin-bottom:-20px;
     text-align:center;
     font-weight:bold;
 }
